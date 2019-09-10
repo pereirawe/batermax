@@ -1,0 +1,201 @@
+/**
+	$blue: #002f5b;
+	$yellow: #fed500;
+	#black: #000000;
+	#Gray : #333333;
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.mobile-hidden{
+	display: none;
+}
+.screen-hidden{
+	display: block;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+header a:hover{
+	text-decoration: none;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+#top-nav{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #002f5b;
+	text-align: right; 
+	color: #d1d1d1;
+}
+#top-nav .col-md-7{
+	text-align: left;
+	color: #d1d1d1;
+}
+#top-nav a{
+	color: #ffffff;
+}
+#top-nav a i{
+	margin-left: 20px;
+	color: #d1d1d1;
+}
+#top-nav a:hover {
+	color: #fed500;
+}
+header img{
+	height: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+header .col-md-5{
+	text-align: right;
+}
+header #programVisit{
+    margin-top: 2.5rem;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+#domicilio{
+	background: url('/img/domicilio_1.png');
+	background-size: contain;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	background-position: center center;
+}
+#mini-banner-1{
+	background-color: #002f5b;
+	font-size: xx-large;
+	padding: 40px;
+	text-align: center;
+	color: #ffffff;
+}
+#mini-banner-2{
+	background-color: #fed500;
+	color: #002f5b;
+	font-size: xx-large;
+	padding: 40px;
+	text-align: center;
+}
+#mini-banner-2 h3{
+	color: #333333;
+}
+#vision{
+	padding: 30px;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-image: url('./img/vision.jpg');
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	background-position: center;
+	text-shadow: 2px 2px 10px #000000;
+}
+#vision h2{
+	color: #ffffff;
+	font-weight: bolder;
+}
+#vision p{
+	color: #e1e1e1;
+	font-size: large;
+}
+#mision{
+	padding: 30px;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	color: #ffffff;
+	text-align: right;
+	background-image: url('./img/mision.jpg');
+	background-size: cover;
+	background-position: center;
+	text-shadow: 2px 2px 10px #000000;
+}
+#mision h2{
+	color: #ffffff;
+	font-weight: bolder;
+}
+#mision p{
+	color: #e1e1e1;
+	font-size: large;
+}
+#local{
+	height: 650px;
+	background-image: url('./img/local.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+#contacto{
+	/*box-shadow: 0px 0px 200px #000000;*/
+	background-color: #1a1a1a;
+	color: #ffffff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#contacto #widget-logo{
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contacto #widget-logo img{
+	width: 70%;
+	margin-bottom: 15px;
+}
+#contacto .btn-primary{
+	color: #fff;
+	background-color: #002f5b;
+	border-color: #19194a;
+}
+#contacto h3{
+	color: #fed500;
+}
+footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #002f5b;
+	color: #ffffff;
+}
+@media screen and (max-width: 480px){
+	.navbar{
+		text-align: center;
+	}
+	#local{
+		height: 300px;
+	}
+	#top-nav .col-md-7{
+		font-size: smaller;
+	}
+	#mini-banner-1{
+		font-size: large;
+	}
+	#domicilio{
+		background: none;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		background-position: center center;
+	}
+	.mobile-hidden{
+		display: block;
+	}
+	.screen-hidden{
+		display: none;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 960px) {
+	.navbar{
+		text-align: center;
+	}
+	#local{
+		height: 250px;
+	}
+	#top-nav .col-md-7{
+		font-size: smaller;
+	}
+	#mini-banner-1{
+		font-size: large;
+	}
+	
+}
