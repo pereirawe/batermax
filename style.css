@@ -158,6 +158,25 @@ footer{
 	background-color: #002f5b;
 	color: #ffffff;
 }
+
+#youtube_vids {
+	background: #e1e1e1;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+#youtube_vids .card{
+	background: #ffffff;
+	margin-bottom: 1.5rem;
+}
+#youtube_vids .card iframe{
+	width: 100%;
+}
+#youtube_vids .card .card-body{
+	min-height: 85px;
+	padding: 1.25em;
+	
+}
+
 @media screen and (max-width: 480px){
 	.navbar{
 		text-align: center;
